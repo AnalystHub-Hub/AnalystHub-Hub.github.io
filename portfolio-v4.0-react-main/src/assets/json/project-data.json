@@ -1,0 +1,100 @@
+[
+    {
+        "name": "CO2 Emissions Analysis",
+        "description": "This is a web app built with React that communicates with an ESP8266 microcontroller to operate addressable RGBW led strips. Adafruit's Neopixel library is used to communicate with the strips. I am currently working on this project.",
+        "imgSrc": "co2.png",
+        "gitHub": "https://github.com/njimonda/njimonda.github.io/tree/main/CO2-Emissions-Analysis",
+        "liveLink": "https://medium.com/@njimonda.co/co2-emissions-analysis-7d565315bed8"
+    },
+    {
+        "name": "Store Sales Analysis, and Forecasting",
+        "description": "A writing game with a time attack game that lets you build stories with friends or strangers. This was the final project in my coding boot camp and was a collaberation with 2 other talented developers. This project is deployed on Heroku, so 20 seconds might be required for the dyno to wake up.",
+        "imgSrc": "sales.png",
+        "gitHub": "https://github.com/njimonda/njimonda.github.io/tree/main/Store-Sales-Analysis-and-Forecasting",
+        "liveLink": "https://medium.com/@njimonda.co/store-sales-analysis-and-forecasting-209dc0372da"
+    },
+    {
+        "name": "Job Market Analysis",
+        "description": "This is a project I did while learning the ins and outs of Angular. It is modeled after the MacOS calculator and the goal was to implement all of it's behaviors. It even corrects a NaN error in the application that it was based on",
+        "imgSrc": "job.png",
+        "gitHub": "https://github.com/njimonda/njimonda.github.io/tree/main/Job-Market-Analysis",
+        "liveLink": "https://medium.com/@njimonda.co/job-market-analysis-7d24809c4ec5"
+    },
+    {
+        "name": "Employee Salary Data Analysis",
+        "description": "This is an app for keeping track of Employees, Job Titles, Departments, and Salaries at your business. It uses an elegant command line interface using node.js and inquirer. Data is stored using a mySQL database.",
+        "imgSrc": "employee.png",
+        "gitHub": "https://github.com/njimonda/njimonda.github.io/tree/main/Employee-Salary-Data-Analysis",
+        "liveLink": "https://medium.com/@njimonda.co/employee-salary-data-analysis-98949811f6e4"
+    },
+    {
+     
+        "name": "Market Basket Analysis",
+        "description": "An expandable and customizable quiz app with a fun theme courtesey of everyone's favorite lazy robot, Bender. It features animations and a leaderboard that makes use of Local Storage to keep scores between games. Questions and answers are kept in an Object making it easy to change the content to your needs, but by default asks questions on Javascript basics",
+        "imgSrc": "market.png",
+        "gitHub": "https://github.com/njimonda/njimonda.github.io/tree/main/Market-Basket-Analysis",
+        "liveLink": "https://medium.com/@njimonda.co/market-basket-analysis-c9421589e707"
+    },
+    {   
+       
+        "name": "Customer Satisfaction Analysis",
+        "description": "A simple, yet easy on the eye weather app. With the help of the Open Weather Map API it displays current weather conditions as well as the five day weather forcast. Moment.js is incorperated for time and date functions. Local Storage is used to store recent searches and to refresh your last search each time the app is launched. Lastly, this app utilizes Bootstrap Icons for weather condition graphics.",
+        "imgSrc": "costumer.png",
+        "gitHub": "https://github.com/njimonda/njimonda.github.io/tree/main/Customer-Satisfaction-Analysis",
+        "liveLink": "https://medium.com/@njimonda.co/customer-satisfaction-analysis-698739aae338"
+    },
+    {   
+       
+        "name": "Exploratory Data Analysis of marketing campaigns",
+        "description": "A canvas based Mario Bros style platforming engine. I make extensive use of Classes to create instances of enemies, platforms, walls, and blocks. The app uses ES6 and is compliled with Webpack. The Arrow keys are used for movement and the space bar is for jumping.",
+        "imgSrc": "campaign.png",
+        "gitHub": "https://github.com/njimonda/njimonda.github.io/tree/main/Exploratory-Data-Analysis-of-marketing-campaigns",
+        "liveLink": "https://medium.com/@njimonda.co/exploratory-data-analysis-of-marketing-campaigns-27fba6528a75"
+    },
+    {   
+       
+        "name": "Employee Churn",
+        "description": "This relatively simple Javascript based Tetris app was the product my love for games and my impatience. I build this between the time I signed up for my Bootcamp and the time that classes started. It uses a single canvas element and uses a grid of objects that are manipulated to create the game play.",
+        "imgSrc": "churn.jpg",
+        "gitHub": "https://github.com/njimonda/njimonda.github.io/tree/main/Employee-Churn",
+        "liveLink": "https://medium.com/@njimonda.co/employee-churn-102d61f209d"
+    },
+    {   
+    
+        "name": "happiness and mental health Analysis",
+        "description": "This project is a full stack application and a collaberation between myself and two others. It is a quiz sharing app platform letting the user create their own quizzes as well as try their hand at quizzes that others have created. This project is deployed on Heroku, so 20 seconds might be required for the dyno to wake up.",
+        "imgSrc": "happy.png",
+        "gitHub": "https://github.com/njimonda/njimonda.github.io/tree/main/happiness-and-mental-health-Analysis",
+        "liveLink": "https://medium.com/@njimonda.co/happiness-and-mental-health-analysis-966afbd86858"
+    },
+    {
+        "name": "Cost of Living Index 2022",
+        "description": "This is a backend for a social media site called Socialite. It Express.js to serve up data from MongoDB through the Mongoose ODM. REST routes are included for adding Users, Users befriending other users, making posts called \"Thoughts\", and adding comments called \"Reactions\"",
+        "imgSrc": "cost.png",
+        "gitHub": "https://github.com/njimonda/njimonda.github.io/tree/main/Cost-of-Living-Index-2022",
+        "liveLink": "https://medium.com/@njimonda.co/cost-of-living-index-2022-d5eda082acc1"
+    },
+    {
+        "name": "GDP by Country 1999-2022",
+        "description": "A tool to help a product manager build an html representing their team using node.js and inquirer. The user is prompted with questions about themself, and their team. An html file is generated with cards for each of your team members.",
+        "imgSrc": "GDP.png",
+        "gitHub": "https://github.com/njimonda/njimonda.github.io/tree/main/GDP-by-Country-1999-2022",
+        "liveLink": "https://medium.com/@njimonda.co/gdp-by-country-1999-2022-58dcab067d3"
+    },
+    {
+        
+        "name": "Survey Analysis",
+        "description": "This project was a collaberation between myself and two other people. Sound Lane uses API calls from AudioDB and Last.fm to populate a page with information and images for your favorite musical artists. Unfortunately one of the APIs has moved to a pay model and this app doesn't work as intended. At the moment, Coldplay is the only artist that returns any data.",
+        "imgSrc": "survey.png",
+        "gitHub": "https://github.com/njimonda/njimonda.github.io/tree/main/Survey-Analysis",
+        "liveLink": "https://medium.com/@njimonda.co/survey-analysis-f1806a5dbf92"
+    },
+    {
+   
+        "name": "Layoffs tracker",
+        "description": "Here it is. My first crack at a portfolio. All dynamic elements are implemented using only CSS and is fully mobile responsive.",
+        "imgSrc": "Layoffstracker.png",
+        "gitHub": "https://github.com/njimonda/njimonda.github.io/tree/main/Layoffs-tracker",
+        "liveLink": "https://medium.com/@njimonda.co/layoffs-tracker-265ad3a42b34"
+    }
+]

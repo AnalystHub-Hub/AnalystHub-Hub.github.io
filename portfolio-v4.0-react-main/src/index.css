@@ -1,0 +1,123 @@
+:root {
+  --bgcolor: #060a1c;
+  --bgcolortransparent: #060a1cdd;
+  --maincolor: #ffffff;
+  --accentcolor: #8c4040;
+  --shadowcolor: #03050c;
+}
+
+body {
+  
+  background-color: var(--bgcolor);
+  color: var(--maincolor);
+  margin: 0;
+  font-family: "Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+}
+
+code {
+  font-family: Menlo, Monaco, 'Courier New', monospace;
+  font-size: .8em;
+}
+
+h1 {
+  margin: 10px;
+  font-size: 60px;
+  font-weight: 300;
+}
+
+h2 {
+  margin-left: 20px;
+  font-weight: 200;
+}
+
+a {
+  transition: all 0.2s;
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  transition: all 0.5s;
+  color: var(--accentcolor);
+  cursor: pointer;
+}
+
+span.accent {
+  color: var(--accentcolor);  
+}
+
+header {
+  transition: all .5s;
+  position: fixed;
+  display: flex;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 40px;
+  background-color: var(--bgcolortransparent);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  border-color: var(--accentcolor);
+  box-shadow:  10px 10px 10px var(--shadowcolor);
+  z-index: 10;
+}
+
+header div {
+  padding: 3px;
+  white-space: nowrap;
+  font-size: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-left: 100px; 
+  margin-top: 100px;
+  min-height: 100vh;
+  max-width: 800px;
+}
+
+main a {
+  transition: color .1s;
+  border: 1px solid var(--accentcolor);
+  border-radius: 5px;
+  color: var(--accentcolor);
+  padding: 10px;
+  margin-left: 10px;
+  box-shadow:  2px 2px 8px var(--shadowcolor);
+  font-size: 1em;
+  font-weight: 200;
+  z-index: 10;
+}
+main a:hover {
+  transition: color .5s;
+  color: var(--maincolor);
+}
+
+footer {
+  position: relative;
+  background-color: var(--bgcolor);
+  top: 100px;
+  z-index: 100;
+  height: 40px;
+  margin-left: 32px;
+}
+
+img {
+  border: 1px solid #99999911;
+  border-radius: 5px;
+}
+
+
+@media (max-width:940px)  {
+    
+  main {
+    margin-left: 0px; 
+  }
+
+
+} 
+
