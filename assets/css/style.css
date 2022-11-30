@@ -1674,7 +1674,7 @@ button {
 
 /* ABOUT */
 .about_img {
-  width: 200px;
+  width: 100%;
   border-radius: 0.5rem;
   justify-self: center;
   align-self: center;
