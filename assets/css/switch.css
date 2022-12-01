@@ -1,0 +1,59 @@
+.btn-container {
+    margin: auto;
+    width: 70%;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0;
+  }
+  
+  .btn {
+    padding: 1rem 3rem;
+    border: 1px solid royalblue;
+    margin: 0 5px;
+    font-size: 1rem;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+  
+  .container {
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-rows: repeat(4, 350px);
+    column-gap: 10px;
+    row-gap: 10px;
+    color: #fff;
+  }
+  
+  .filtered-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  
+  [data-car] {
+    background-color: coral;
+  }
+  
+  [data-color] {
+    background-color: cornflowerblue;
+  }
+  
+  [data-movie] {
+    background-color: crimson;
+  }
+   
+  .show {
+    display: block;
+  }
+  
+  .remove {
+    display: none;
+  }

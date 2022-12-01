@@ -56,6 +56,8 @@
 
    <!--==================== UNICONS ====================-->
    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+   
   
 </head>
 
@@ -122,7 +124,6 @@
               Contact Me
               <i class="uil uil-message"></i>
             </a>
-
           </div>       
 
 
@@ -143,25 +144,31 @@
 
 
 
-    <section  style="margin-left:36%; margin-bottom:-10px;">
-        <div class="home_social" style="margin-left:6%">
-          <a href="https://www.linkedin.com/in/nelson-mondoa-99777b236/" class="home_social-icon" target="_blank">
-            <i class="uil uil-linkedin-alt"></i>
-          </a>
 
-          <a href="https://github.com/njimonda" class="home_social-icon" target="_blank">
-            <i class="uil uil-github-alt"></i>
-          </a>
 
-          <a href="https://twitter.com/njimonda" class="home_social-icon" target="_blank">
-            <i class="uil uil-twitter-alt"></i>
-          </a>
 
-          <a href="https://medium.com/@njimonda.co" class="home_social-icon" target="_blank">
-            <i class="uil-medium-m"></i>
-          </a>
-        </div>
-  </section>
+  <section class="section_title" >
+    <!-- <div class="about_container container grid"> -->
+      <div class="home_social">
+        <a href="https://www.linkedin.com/in/nelson-mondoa-99777b236/" class="home_social-icon" target="_blank">
+          <i class="uil uil-linkedin-alt"></i>
+        </a>
+
+        <a href="https://github.com/njimonda" class="home_social-icon" target="_blank">
+          <i class="uil uil-github-alt"></i>
+        </a>
+
+        <a href="https://twitter.com/njimonda" class="home_social-icon" target="_blank">
+          <i class="uil uil-twitter-alt"></i>
+        </a>
+
+        <a href="https://medium.com/@njimonda.co" class="home_social-icon" target="_blank">
+          <i class="uil-medium-m"></i>
+        </a>
+      <!-- </div> -->
+    </section>
+
+
 
 
     <!-- About -->
@@ -169,11 +176,6 @@
       <h2 class="section_title">About Me</h2>
       <span class="section_subtitle">introduction</span>
       <div class="about_container container grid">
-
-
-
-
-
         
         <img src="./photo.jpg" alt="" class="about_img" data-tilt />
         <div class="about_data">
@@ -185,7 +187,7 @@
               of R.
           </p>
           <div class="about_button">
-            <a download="" href="./Pranay_Gupta-Resume.pdf" class="button button--flex" target="_blank">
+            <a download="" href="./Nelson_Mondoa-Resume.pdf" class="button button--flex" target="_blank">
               Resume<i class="uil uil-file-download-alt button_icon"></i>
             </a>
           </div>
@@ -450,6 +452,41 @@
       <div class="work__container container grid">
           <!--==================== PROJETO 1 ====================-->
           <div class="work__card" data-item="web">
+            <div>
+                <picture>
+                    <source class="work__img" srcset="assets/img/anunx/anunx_pc.webp" type="image/webp">
+                    <img class="work__img" src="assets/img/anunx/anunx_pc.png" alt="Ecommerce">
+                </picture>                            
+            </div>
+
+            <h3 class="work__title">Superstore Sales Analysis</h3>
+
+            <a href="https://anunx-deploy.vercel.app" class="work__button" target="_blank">
+                Demo
+                <i class="uil uil-arrow-right work__icon"></i><br>
+            </a>
+            <span class="work__down">
+                <i class="uil uil-angle-down"></i>
+            </span>
+            <div class="work__description">
+                <p>
+                  My drive to know which products, regions, categories and customer segments a company should target or avoid, I search and selected an appropriate dataset on kaggle which will match a standard superstore requirement.
+                    <a href="https://anunx-deploy.vercel.app" class="work__button" target="_blank">Divulgue seu Anúncio!</a><br><br>
+                    
+                    <div class="cards_wrapper">
+                        <p class="card_tech">seaborn</p>
+                        <p class="card_tech">datetime</p>
+                        <p class="card_tech">numpy</p>
+                        <p class="card_tech">pandas</p>
+                        <p class="card_tech">seaborn</p>
+                        <p class="card_tech">plotly</p>
+                        <p class="card_tech">plotly express</p>
+                    </div>
+                </p>
+            </div>
+        </div>
+          <!--==================== PROJETO 2 ====================-->
+          <div class="work__card" data-item="web">
               <div>
                   <picture>
                       <source class="work__img" srcset="assets/img/anunx/anunx_pc.webp" type="image/webp">
@@ -457,7 +494,7 @@
                   </picture>                            
               </div>
 
-              <h3 class="work__title">Anunx Ecommerce</h3>
+              <h3 class="work__title">Worldwide Happiness Analysis</h3>
 
               <a href="https://anunx-deploy.vercel.app" class="work__button" target="_blank">
                   Demo
@@ -468,20 +505,60 @@
               </span>
               <div class="work__description">
                   <p>
-                      Ecommerce completo com login social, cadastro de produtos e autenticação JWT. <a href="https://anunx-deploy.vercel.app" class="work__button" target="_blank">Divulgue seu Anúncio!</a><br><br>
+                    The project objective is to discover what makes people happy globally.
+                    I analyzed the relationship between happiness levels and the six key variables selected by the World Happiness Report
+                      <a href="https://anunx-deploy.vercel.app" class="work__button" target="_blank">Divulgue seu Anúncio!</a><br><br>
                       
                       <div class="cards_wrapper">
-                          <p class="card_tech">React</p>
-                          <p class="card_tech">NextJS </p>
-                          <p class="card_tech">Material UI</p>
-                          <p class="card_tech">MongoDB</p>
-                          <p class="card_tech">NextAuth</p>
+                          <p class="card_tech">numpy</p>
+                          <p class="card_tech">pandas</p>
+                          <p class="card_tech">seaborn</p>
+                          <p class="card_tech">plotly</p>
+                          <p class="card_tech">plotly express</p>
                       </div>
                   </p>
               </div>
           </div>
 
-          <!--==================== PROJETO 2 ====================-->
+            <!--==================== PROJETO 3 ====================-->
+            <div class="work__card" data-item="web">
+              <div>
+                  <picture>
+                      <source class="work__img" srcset="assets/img/anunx/anunx_pc.webp" type="image/webp">
+                      <img class="work__img" src="assets/img/anunx/anunx_pc.png" alt="Ecommerce">
+                  </picture>                            
+              </div>
+  
+              <h3 class="work__title">Data Analytics related Job Scraping, Analysis and Visualization</h3>
+  
+              <a href="https://anunx-deploy.vercel.app" class="work__button" target="_blank">
+                  Demo
+                  <i class="uil uil-arrow-right work__icon"></i><br>
+              </a>
+              <span class="work__down">
+                  <i class="uil uil-angle-down"></i>
+              </span>
+              <div class="work__description">
+                  <p>
+                    The analysis explored various job categories related to “data analytics,”. I wanted to find out which regions of the world has the highest data analyst job demand, which would result in higher pay and better working conditions.
+                      <a href="https://anunx-deploy.vercel.app" class="work__button" target="_blank">Divulgue seu Anúncio!</a><br><br>
+                      
+                      <div class="cards_wrapper">
+                          <p class="card_tech">BeautifulSoup</p>
+                          <p class="card_tech">requests</p>
+                          <p class="card_tech">seaborn</p>
+                          <p class="card_tech">datetime</p>
+                          <p class="card_tech">numpy</p>
+                          <p class="card_tech">pandas</p>
+                          <p class="card_tech">seaborn</p>
+                          <p class="card_tech">plotly</p>
+                          <p class="card_tech">plotly express</p>
+                      </div>
+                  </p>
+              </div>
+          </div>
+
+          <!--==================== PROJETO 4 ====================-->
           <div class="work__card" data-item="web">
               <div>
                   <picture>
@@ -490,7 +567,7 @@
                   </picture>                            
               </div>
 
-              <h3 class="work__title">Easybank</h3>
+              <h3 class="work__title">Household Expense Analysis</h3>
 
               <a href="https://idomelo.me/easy-bank-landing-page" class="work__button" target="_blank">
                   Demo
@@ -501,17 +578,18 @@
               </span>
               <div class="work__description">
                   <p>
-                      Landing Page Responsiva para Banco<br><br>
+                    Expense analysis in households with Microsoft excel using kaggle dataset<br><br>
                       <div class="cards_wrapper">
-                          <p class="card_tech">HTML</p>
-                          <p class="card_tech">CSS </p>
-                          <p class="card_tech">Javascript</p>
+                          <p class="card_tech">DAX</p>
+                          <p class="card_tech">Power Query</p>
+                          <p class="card_tech">Power Pivot</p>
+                          <p class="card_tech">Pivot Table and Chart</p>
                       </div>
                   </p>
               </div>
           </div>
           
-          <!--==================== PROJETO 3 ====================-->
+          <!--==================== PROJETO 5 ====================-->
           <div class="work__card" data-item="web">
               <div>
                   <picture>
@@ -520,7 +598,7 @@
                   </picture>
               </div>
 
-              <h3 class="work__title">Lista de Clientes</h3>
+              <h3 class="work__title">GDP by Country</h3>
 
               <a href="https://listadeclientes.vercel.app" class="work__button" target="_blank">
                   Demo
@@ -531,19 +609,16 @@
               </span>
               <div class="work__description">
                   <p>
-                      Aplicação que simula edição e registro de clientes numa API<br><br>
+                    I analyzed the GDP by countries from 1999 to 2022, and forecasted to predict the future.<br><br>
                       <div class="cards_wrapper">
-                          <p class="card_tech">React</p>
-                          <p class="card_tech">React Router </p>
-                          <p class="card_tech">Material UI</p>
-                          <p class="card_tech">Axios</p>
-                          <p class="card_tech">Context API</p>
+                        <p class="card_tech">Power Query</p>
+                        <p class="card_tech">Power BI</p>
                       </div>
                   </p>
               </div>
           </div>
 
-          <!--==================== PROJETO 4 ====================-->
+          <!--==================== PROJETO 6 ====================-->
           <div class="work__card" data-item="web">
               <div>
                   <picture>
@@ -552,7 +627,7 @@
                   </picture>                        
               </div>
 
-              <h3 class="work__title">Portfólio Alexa</h3>
+              <h3 class="work__title">CO2 Emissions Around the World</h3>
 
               <a href="https://idomelo.me/portfolio-alexa" class="work__button" target="_blank">
                   Demo
@@ -563,17 +638,16 @@
               </span>
               <div class="work__description">
                   <p>
-                      Site de Portfólio<br><br>
+                    In this project, I analyzed and visualized CO2 Emissions by countries over time.<br><br>
                       <div class="cards_wrapper">
-                          <p class="card_tech">HTML</p>
-                          <p class="card_tech">CSS </p>
-                          <p class="card_tech">Javascript</p>
+                        <p class="card_tech">Power Query</p>
+                        <p class="card_tech">Power BI</p>
                       </div>
                   </p>
               </div>
           </div>
           
-          <!--==================== PROJETO 5 ====================-->
+          <!--==================== PROJETO 7 ====================-->
           <div class="work__card" data-item="web">
               <div>
                   <picture>
@@ -582,7 +656,7 @@
                   </picture>
               </div>
 
-              <h3 class="work__title">Lista de Tarefas</h3>
+              <h3 class="work__title">Cost of living Analysis</h3>
 
               <a href="https://idomelo.me/to-do-list/" class="work__button" target="_blank">
                   Demo
@@ -593,17 +667,16 @@
               </span>
               <div class="work__description">
                   <p>
-                      Gerenciador de tarefas no navegador<br><br>
+                    This is an analysis and visualization of the 2022 cost of living index.<br><br>
                       <div class="cards_wrapper">
-                          <p class="card_tech">HTML</p>
-                          <p class="card_tech">CSS </p>
-                          <p class="card_tech">Javascript</p>
+                        <p class="card_tech">Power Query</p>
+                        <p class="card_tech">Power BI</p>
                       </div>
                   </p>
               </div>
           </div>
 
-          <!--==================== PROJETO 6 ====================-->
+          <!--==================== PROJETO 8 ====================-->
           <div class="work__card" data-item="web">
               <div>
                   <picture>
@@ -612,7 +685,7 @@
                   </picture>                            
               </div>
 
-              <h3 class="work__title">Página para Barbearia</h3>
+              <h3 class="work__title">Customer Segmentation and marketing campaigns analysis</h3>
 
               <a href="https://idomelo.me/barber-shop/" class="work__button" target="_blank">
                   Demo
@@ -623,34 +696,20 @@
               </span>
               <div class="work__description">
                   <p>
-                      Landing Page para barbearia<br><br>
+                    I have always been curious on how marketing campaigns play an essential part of how businesses promote their interests.<br><br>
                       <div class="cards_wrapper">
-                          <p class="card_tech">HTML</p>
-                          <p class="card_tech">CSS </p>
-                          <p class="card_tech">Javascript</p>
+                          <p class="card_tech">numpy</p>
+                          <p class="card_tech">datetime</p>
+                          <p class="card_tech">pandas</p>
+                          <p class="card_tech">seaborn</p>
+                          <p class="card_tech">plotly</p>
+                          <p class="card_tech">plotly express</p>
                       </div>
                   </p>
               </div>
           </div>
           
-          <!--==================== PROJETO 7 ====================-->
-          <div class="work__card" data-item="mobile">
-              <div class="icon__wrapper">
-                  <i class="uil uil-android "></i>
-              </div>
-
-              <h3 class="work__title">Em breve...</h3>
-
-              <a href="#!" class="work__button">
-                  Demo
-                  <i class="uil uil-arrow-right work__icon"></i>
-              </a>
-              <!-- <div class="work__description">
-                  <p>
-                      Coisas boas vindo aí :)
-                  </p>
-              </div> -->
-          </div>
+        
       </div>
   </section>
 
@@ -776,6 +835,7 @@
 
   <!-- Swiper JS -->
   <script src="./assets/js/swiper-bundle.min.js"></script>
+  
 
   <!-- Typed JS -->
   <script src="./assets/js/typed.js"></script>
