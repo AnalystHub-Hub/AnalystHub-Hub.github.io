@@ -1,23 +1,7 @@
 <html>
 <body>
-
-<video width="440px" loop="true" autoplay="autoplay" controls muted>
-  <source src="demo.mp4" type="video/mp4" />
-<source src="demo.ogv" type="video/mp4" />
-<source src="demo.webm" type="video/mp4" />
-
+<video autoplay controls poster="poster.jpg">
+    <source src="demo.mp4" type="video/mp4"/>
 </video>
-
-
 </body>
 </html>
-
-
-
-<button>Play</button>
-
-<script>
-    document.querySelector('button').addEventListener('click', () => {
-        document.querySelector('video').play();
-    });
-</script>
