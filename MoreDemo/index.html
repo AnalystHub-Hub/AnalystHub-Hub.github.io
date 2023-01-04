@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatimble" content="IE=edge">
+        <meta name="viewport" content="widhth=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="/img/icon.png">
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <title> Live </title>
+
+    </head>
+<body>
+
+<div class="buton">
+   <a href="../../njimonda.github.io/index.html">
+    <button class="btn btn1">Go Back</button>
+   </a>
+</div>
+
+<h4 class="heading">Live Projects</h4>
+
+<div class="container">
+
+    <div class="main-video">
+        <div class="video">
+            <video src="vid/Co2EmissionDemo.mp4" controls autoplay></video>
+            <h3 class="title">1# Power BI, Co2 Emission Demo</h3>
+        </div>
+    </div>
+
+    <div class="video-list">
+        <div class="vid active">
+            <video src="vid/costlivingDemo.mp4"muted></video>
+            <h3 class="title">1# Power BI, Co2 Emission Demo | Emission by country</h3>
+        </div>
+        <div class="vid">
+            <video src="vid/SuperStoreDemo.mp4"muted></video>
+            <h3 class="title">2# Power BI, Super Store Demo | Performance of store sales</h3>
+    </div>
+    <div class="vid">
+        <video src="vid/costlivingDemo.mp4"muted></video>
+        <h3 class="title">3# Power BI, cost living Demo | How expensive are countries?</h3>
+    </div>
+        <div class="vid">
+            <video src="vid/gdpDemo.mp4"muted></video>
+            <h3 class="title">4# Power BI, gdp Demo |  Gross Domestic Product per Country</h3>
+        </div>
+        <div class="vid">
+            <video src="vid/jobSearchDemo.mp4"muted></video>
+            <h3 class="title">5# Power BI, job Search Demo| What are Data Analytics/Experiences?</h3>
+    </div>
+        <div class="vid">
+            <video src="vid/marketingDemo.mp4"muted></video>
+            <h3 class="title">6# Power BI, marketing Campaign Demo | Cost and Campaign performance</h3>
+    </div>
+
+<script>
+
+let listVideo = document.querySelectorAll('.video-list .vid');
+let mainVideo = document.querySelector('.main-video video');
+let title = document.querySelector('.main-video .title');
+
+listVideo.forEach(video =>{
+    video.onclick = () =>{
+        listVideo.forEach(vid => vid.classList.remove('active'));
+        video.classList.add('active');
+        if(video.classList.contains('active')){
+             let src = video.children[0].getAttribute('src');
+             mainVideo.src = src;
+             let text = video.children[1].innerHTML;
+             title.innerHTML = text;
+        };
+    };
+});
+
+</script>
+
+<footer>
+    <div class="footer-bottom">
+       <div class="container">
+          <div class="row justify-content-between gy-3">
+             <div class="col-md-6">
+                <p class="mb-0">© 2022. All rights reserved</p>
+             </div>
+             <div class="col-auto">
+                <p class="mb-0">Created by Nelson Mondoa.</p>
+             </div>
+          </div>
+       </div>
+    </div>
+ </footer>
+
+</body>
+</html>
