@@ -1,14 +1,14 @@
-*{
+/* *{
     margin: 0; padding: 0;
     box-sizing: border-box;
     text-transform: capitalize;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: normal;
-}
-
+    font-weight: normal; 
+} */
+/* 
 body {
     background: #FBFBFE;
-}
+} */
 
 .heading {
     color: #444;
@@ -17,13 +17,14 @@ body {
     padding: 10px; 
 }
 
-.container {
+
+/* .container {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 15px;
     align-items: flex-start;
     padding: 5px 5%;
-}
+}  */
 
 .container .main-video {
     background: #fff;

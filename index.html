@@ -26,6 +26,7 @@
     content="https://cdn.bio.link/uploads/profile_pictures/2021-09-01/tE8wirBYKrXgipi0HP0GK69YD9TzfsDY.png" />
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
   <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="MoreDemo/css/style.css">
   <link rel="stylesheet" href="./assets/css/style.css" />
   <title>Nelson Mondoa</title>
   <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon" />
@@ -745,14 +746,84 @@
         
       </div>
 
-
-      
-      <p
+      <!-- <p
         style="margin-top:40px; font-size: 20px; font-style: italic; font-weight: bold; text-decoration: wavy;"  
         class="section__title"> <a  href="./MoreDemo/index.html"  target="_blank"> More Projects ... </a>
-    </p>
+    </p> -->
+
 
   </section>
+
+  <h2 class="section__title">Live Projects</h2>
+      <span class="section__subtitle">Recent</span>
+
+
+
+  <div class="container">
+
+    <div class="main-video">
+        <div class="video">
+            <video src="MoreDemo/vid/ExcelDataCleaning01.mp4"controls autoplay></video>
+            <h3 class="title"> Microsoft Excel, Excel Data Cleaning | in 2 min</h3>  
+        </div>
+    </div>
+
+    <div class="video-list">
+      <div class="vid active">
+        <video src="MoreDemo/vid/MarketCamp/Marketingcampaign1.mp4"muted></video>
+        <h3 class="title"> Marketing campaign analysis with Python, PART 1  </br> <i><a href="https://github.com/njimonda/Marketing_Campaign_App" target="_blank">View on Github</a></i></h3>
+    </div>
+        <div class="vid">
+            <video src="MoreDemo/vid/MarketCamp/Marketingcampaign2.mp4"muted></video>
+            <h3 class="title"> Marketing campaign analysis with Python, PART 2   </br><i><a href="https://github.com/njimonda/Marketing_Campaign_App" target="_blank">View on Github</a></i></h3>
+        </div>
+        <div class="vid">
+            <video src="MoreDemo/vid/MarketCamp/Marketingcampaign3.mp4"muted></video>
+            <h3 class="title"> Marketing campaign analysis with Python, PART 3   </br><i><a href="https://github.com/njimonda/Marketing_Campaign_App" target="_blank">View on Github</a></i></h3>
+    </div>
+        <div class="vid">
+            <video src="MoreDemo/vid/MarketCamp/Marketingcampaign4.mp4"muted></video>
+            <h3 class="title"> Marketing campaign analysis with Python, PART 4  </br><i><a href="https://github.com/njimonda/Marketing_Campaign_App" target="_blank">View on Github</a></i></h3>
+    </div>
+      <div class="vid">
+        <video src="MoreDemo/vid/StockManagement/SMS1.mp4"muted></video>
+        <h3 class="title"> Stock Management System Web App with JAVA, PostgresQL PART 1 </br><i><a href="https://github.com/njimonda/Stock-Management-System" target="_blank">View on Github</a></i></h3>
+      </div>
+    <div class="vid">
+        <video src="MoreDemo/vid/StockManagement/SMS2.mp4"muted></video>
+        <h3 class="title"> Stock Management System Web App with JAVA, PostgresQL PART 2 </br><i><a href="https://github.com/njimonda/Stock-Management-System" target="_blank">View on Github</a></i></h3>
+    </div>
+        <div class="vid">
+            <video src="MoreDemo/vid/Classification/Classif1.mp4"muted></video>
+            <h3 class="title"> Classification Visualization with Python, PART 1   </br><i><a href="https://github.com/njimonda/Classification-Visualization" target="_blank">View on Github</a></i></h3>  
+        </div>
+        <div class="vid">
+            <video src="MoreDemo/vid/Classification/Classif2.mp4"muted></video>
+            <h3 class="title"> Classification Visualization with Python, PART 2  </br><i><a href="https://github.com/njimonda/Classification-Visualization" target="_blank">View on Github</a></i></h3>
+        </div>
+        <div class="vid">
+            <video src="MoreDemo/vid/Classification/Classif3.mp4"muted></video>
+            <h3 class="title"> Classification Visualization with Python, PART 3  </br><i><a href="https://github.com/njimonda/Classification-Visualization" target="_blank">View on Github </a></i></h3>
+    </div>
+  
+    <div class="vid">
+        <video src="MoreDemo/vid/PatientManagementSystem/PMS1.mp4"muted></video>
+        <h3 class="title"> Patient Management System Web App with JAVA, PostgresQL PART 1  </br><i><a href="https://github.com/njimonda/Patients-management-system" target="_blank">View on Github</a></i></h3>
+    </div>
+        <div class="vid">
+            <video src="MoreDemo/vid/PatientManagementSystem/PMS2.mp4"muted></video>
+            <h3 class="title"> Patient Management System Web App with JAVA, PostgresQL PART 2   </br><i><a href=" https://github.com/njimonda/Patients-management-system" target="_blank">View on Github</a></i></h3>
+
+
+        </div>
+    
+
+  </br></br>
+   
+
+      </div>
+      </div>
+
 
 
     <!-- Contact Me -->
@@ -852,7 +923,13 @@
 
       <p class="footer_copy">&#169; Nelson Mondoa. All rights reserved</p>
     </div>
+
+
+
   </footer>
+
+  
+
 
   <!-- Scroll Top -->
   <a href="#" class="scrollup" id="scroll-up">
@@ -874,6 +951,27 @@
   <script src="./assets/js/tilt.jquery.min.js"></script>
 
   <script src="./assets/js/main.js"></script>
+
+  <script>
+
+    let listVideo = document.querySelectorAll('.video-list .vid');
+    let mainVideo = document.querySelector('.main-video video');
+    let title = document.querySelector('.main-video .title');
+    
+    listVideo.forEach(video =>{
+        video.onclick = () =>{
+            listVideo.forEach(vid => vid.classList.remove('active'));
+            video.classList.add('active');
+            if(video.classList.contains('active')){
+                 let src = video.children[0].getAttribute('src');
+                 mainVideo.src = src;
+                 let text = video.children[1].innerHTML;
+                 title.innerHTML = text;
+            };
+        };
+    });
+    
+    </script>
 
 
 </body>
