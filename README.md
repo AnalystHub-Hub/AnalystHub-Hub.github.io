@@ -28,7 +28,7 @@
 ✔️ Contact Me\
 ✔️ Footer
 
-To view a live example, **[click here](https://njimonda.github.io/)**
+To view a live example, **[click here](https://njmondoa.github.io/)**
 
 ## Tools Used 🛠️
 
