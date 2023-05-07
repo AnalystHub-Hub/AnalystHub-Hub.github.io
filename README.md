@@ -3,7 +3,7 @@
 <h1>Personal Portfolio Website</h1>
 
 <h2>
-  <a href="https://njimonda.github.io/">njimonda.github.io</a>
+  <a href="https://njimonda.github.io/">njmondoa.github.io</a>
 </h2>
 
 
