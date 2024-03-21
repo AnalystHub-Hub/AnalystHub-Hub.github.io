@@ -3,7 +3,7 @@
 <h1>Personal Portfolio Website</h1>
 
 <h2>
-  <a href="https://njimonda.github.io/">njmondoa.github.io</a>
+  <a href="https://AnalystHub-Hub.github.io/">AnalystHub-Hub.github.io</a>
 </h2>
 
 
@@ -28,7 +28,7 @@
 ✔️ Contact Me\
 ✔️ Footer
 
-To view a live example, **[click here](https://njmondoa.github.io/)**
+To view a live example, **[click here](https://AnalystHub-Hub.github.io/)**
 
 ## Tools Used 🛠️
 
